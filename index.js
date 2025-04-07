@@ -55,9 +55,10 @@ app.get(`/api/todos/:id`, async (req, res) => {
         `
     res.send(html)
 })
-// app.delete(`/api/todos`, (req, res) => {
-
-// })
+app.delete(`/api/todos/:id`, async (req, res) => {
+    await Todo.findByIdAndDelete(req.params.id)
+    res.json({"mesage": "success"})
+})
 
 app.patch(`/api/todos/:id`,async (req, res)=>{
   await Todo.findByIdAndUpdate(req.params.id, {task: "texst update"})
