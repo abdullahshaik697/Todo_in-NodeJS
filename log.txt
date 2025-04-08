@@ -1,0 +1,16 @@
+
+1744123161382: ::1, GET, /favicon.ico
+1744123393994: ::ffff:127.0.0.1, DELETE, /api/todos/67f4308610f1fce32b9b5a1c
+1744123400060: ::1, GET, /api/todos
+1744123428016: ::ffff:127.0.0.1, POST, /api/todos
+1744123446593: ::ffff:127.0.0.1, POST, /api/todos
+1744123457879: ::1, GET, /api/todos
+1744123518454: ::ffff:127.0.0.1, POST, /api/todos
+1744123522017: ::1, GET, /api/todos
+1744123587119: ::ffff:127.0.0.1, PATCH, /api/todos/67f43491a7af7f59b0227972
+1744123603690: ::1, GET, /api/todos
+1744123696936: ::ffff:127.0.0.1, PATCH, /api/todos/67f5367ea7ad3be786d593e3
+1744123704029: ::1, GET, /api/todos
+1744123847095: ::ffff:127.0.0.1, PATCH, /api/todos/67f5367ea7ad3be786d593e3
+1744123851317: ::1, GET, /api/todos
+1744124011297: ::1, GET, /api/todos
